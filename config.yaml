@@ -77,6 +77,8 @@ params:
     #weibo: ""
     #weibo_url: ""
     github: "raheems"
+    facebook: "raheemsOfficial"
+    linkedin: "in/raheems"
 
   logo:
     url: "raheem.jpg"
