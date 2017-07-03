@@ -3,7 +3,7 @@ title: 'Updating local repository with remote'
 author: Enayetur Raheem
 date: '2017-07-03'
 slug: updating-local-repository-with-remote
-draft: true
+draft: false
 categories: []
 tags: [git]
 ---
