@@ -6,8 +6,8 @@
 <meta name="generator" content="Hugo 0.19" />
 
 
-<title>Testing code embedding in Markdown - Enayetur Raheem</title>
-<meta property="og:title" content="Testing code embedding in Markdown - Enayetur Raheem">
+<title>Hello R Markdown - Enayetur Raheem</title>
+<meta property="og:title" content="Hello R Markdown - Enayetur Raheem">
 
 
 
@@ -68,18 +68,18 @@
     
     <span class="article-duration">1 min read</span>
     
-    <h1 class="article-title">Testing code embedding in Markdown
+    <h1 class="article-title">Hello R Markdown
 
 </h1>
 
 
 <div class="article-date">
-  <span> Enayet Raheem ·   2017/02/26</span>
+  <span> Frida Gomam ·   2015/07/23</span>
   <span class="article-toolbar">
     
     <a href="/en/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
     
-    <a href="https://twitter.com/home?status=Testing&#43;code&#43;embedding&#43;in&#43;Markdown&#43;%2Fen%2F2017%2F02%2Fcode-embedding-in-markdown%2F&#43;via&#43;%40eraheem" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
+    <a href="https://twitter.com/home?status=Hello&#43;R&#43;Markdown&#43;%2Fen%2F2015%2F07%2Fhello-r-markdown%2F&#43;via&#43;%40eraheem" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
     
     </span>
 </div>
@@ -88,29 +88,45 @@
 
     
     <div class="article-content">
-      <p>This is a chunk of R code</p>
-<pre class="r"><code># This is R code
-x &lt;- rnorm(100)
-hist(x)</code></pre>
-<p><img src="/en/2017-02-26-my-first-blog-post_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<pre class="r"><code>y &lt;- rnorm(200)
-plot(y)</code></pre>
-<p><img src="/en/2017-02-26-my-first-blog-post_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
-<div id="now-testing-python-code" class="section level2">
-<h2>Now testing python code</h2>
-<pre class="python"><code># Code in Python
-import numpy as np
-x = np.array(10)
-print(x)</code></pre>
-<pre><code>## 10</code></pre>
+      <div id="r-markdown" class="section level1">
+<h1>R Markdown</h1>
+<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
+<p>You can embed an R code chunk like this:</p>
+<pre class="r"><code>summary(cars)
+##      speed           dist       
+##  Min.   : 4.0   Min.   :  2.00  
+##  1st Qu.:12.0   1st Qu.: 26.00  
+##  Median :15.0   Median : 36.00  
+##  Mean   :15.4   Mean   : 42.98  
+##  3rd Qu.:19.0   3rd Qu.: 56.00  
+##  Max.   :25.0   Max.   :120.00
+fit &lt;- lm(dist ~ speed, data = cars)
+fit
+## 
+## Call:
+## lm(formula = dist ~ speed, data = cars)
+## 
+## Coefficients:
+## (Intercept)        speed  
+##     -17.579        3.932</code></pre>
 </div>
-<div id="now-trying-code-in-sas" class="section level2">
-<h2>Now trying code in SAS</h2>
-<pre class="sas"><code># Code in SAS
-# Highlights not showing
-proc sql;
-select * from a
-quit;</code></pre>
+<div id="including-plots" class="section level1">
+<h1>Including Plots</h1>
+<p>You can also embed plots. See Figure <a href="#fig:pie">1</a> for example:</p>
+<pre class="r"><code>par(mar = c(0, 1, 0, 1))
+pie(
+  c(280, 60, 20),
+  c(&#39;Sky&#39;, &#39;Sunny side of pyramid&#39;, &#39;Shady side of pyramid&#39;),
+  col = c(&#39;#0292D8&#39;, &#39;#F7EA39&#39;, &#39;#C4B632&#39;),
+  init.angle = -50, border = NA
+)</code></pre>
+<div class="figure"><span id="fig:pie"></span>
+<img src="/en/2015-07-23-r-rmarkdown_files/figure-html/pie-1.png" alt="A fancy pie chart." width="672" />
+<p class="caption">
+Figure 1: A fancy pie chart.
+</p>
+</div>
+<pre><code>sas code</code></pre>
 </div>
 
     </div>
@@ -118,14 +134,10 @@ quit;</code></pre>
 
 <nav id="article-nav">
     
-    <a href="/en/2017/02/code-embedding-in-markdown/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Testing code embedding in Markdown</div>
-    </a>
-    
 
     
-    <a href="/en/2017/07/rmarkdown-with-r-python/" id="article-nav-newer" class="article-nav-link-wrap">
-      <div class="article-nav-title">Rmarkdown Examples with R and Python <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
+    <a href="/en/2017/02/code-embedding-in-markdown/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title">Testing code embedding in Markdown <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
     </a>
     
 </nav>
@@ -135,11 +147,9 @@ document.addEventListener('keyup', function(e) {
   var url = false;
   if (e.which == 37) {  
     
-    url = '\/en\/2017\/02\/code-embedding-in-markdown\/';
-    
   } else if (e.which == 39) {  
     
-    url = '\/en\/2017\/07\/rmarkdown-with-r-python\/';
+    url = '\/en\/2017\/02\/code-embedding-in-markdown\/';
     
   }
   if (url) window.location = url;
