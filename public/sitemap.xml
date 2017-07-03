@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>/en/2017/07/updating-local-repository-with-remote/</loc>
@@ -54,6 +55,16 @@
   <url>
     <loc>/bn/</loc>
     <lastmod>2017-01-31T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/bn/2016/11/data-science-and-data-scientist/</loc>
+    <lastmod>2016-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/bn/2016/10/future-of-statistics-in-bangladesh/</loc>
+    <lastmod>2016-10-31T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -119,6 +130,7 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2017-07-03T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
