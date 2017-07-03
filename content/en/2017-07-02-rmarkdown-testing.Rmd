@@ -1,8 +1,8 @@
 ---
-title: RMarkdown Testing
+title: Rmarkdown Examples with R and Python
 author: Enayetur Raheem
 date: '2017-07-02'
-slug: rmarkdown-testing
+slug: rmarkdown with R Python
 categories: []
 tags: []
 ---

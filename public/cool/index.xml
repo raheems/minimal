@@ -2,14 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>A Cool Project on Enayetur Raheem</title>
-    <link>/cool/</link>
+    <link>/cool/index.xml</link>
     <description>Recent content in A Cool Project on Enayetur Raheem</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/cool/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/cool/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>A Sample Page</title>
@@ -17,7 +15,8 @@
       <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
       
       <guid>/cool/sample/</guid>
-      <description>This is a sample page.</description>
+      <description>&lt;p&gt;This is a sample page.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
