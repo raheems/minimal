@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "@font-face {\n  font-family: 'Open Sans';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(../fonts/open-sans-regular.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;\n}\n\n@font-face {\n  font-family: 'Lato';\n  font-style: normal;\n  font-weight: 400;\n  src: local('Lato Regular'), local('Lato-Regular'), url(../fonts/lato-regular.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;\n}\n\n@font-face {\n  font-family: 'PT Mono';\n  font-style: normal;\n  font-weight: 400;\n  src: local('PT Mono'), local('PTMono-Regular'), url(../fonts/pt-mono-regular.woff2) format('woff2');\n  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;\n}\n\nbody {\n  font-family: 'Open Sans', 'Lato', serif;\n}\nblockquote {\n  font-family: 'Open Sans', 'Lato', serif;\n}\ncode {\n  font-family: 'PT Mono', monospace;\n  font-size: 85%;\n}\n",
+    "created" : 1499041342034.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3616234973",
+    "id" : "88C518D2",
+    "lastKnownWriteTime" : 1499028041,
+    "last_content_update" : 1499028041,
+    "path" : "~/MyFolder/GitHub/lithium/static/css/fonts.css",
+    "project_path" : "static/css/fonts.css",
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "css"
+}

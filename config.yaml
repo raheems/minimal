@@ -1,0 +1,97 @@
+baseurl: "/"
+languageCode: "en-us"
+title: "Enayetur Raheem"
+theme: "hugo-lithium-theme"
+googleAnalytics: ""
+disqusShortname: ""
+ignoreFiles: ["\\.Rmd$", "_files$", "_cache$"]
+hasCJKLanguage: true
+enableEmoji: true
+footnotereturnlinkcontents: "↩"
+
+permalinks:
+  bn: "/bn/:year/:month/:slug/"
+  en: "/en/:year/:month/:slug/"
+
+menu:
+  main:
+    - name: "Research"
+      url: "/research"
+      weight: 1
+    - name: "Publications"
+      url: "/publications"
+      weight: 2
+    - name: "Vitae"
+      url: "/en/vitae/"
+      weight: 3
+    - name: "Blog"
+      url: "/en/"
+      weight: 4
+    - name: "বাংলা"
+      url: "/bn/"
+      weight: 6
+
+
+  en:
+    - name: "Home"
+      url: "/"
+      weight: 1
+    - name: "Vitae"
+      url: "/en/vitae/"
+      weight: 2
+    - name: "Blog"
+      url: "/en/"
+      weight: 3
+    - name: "বাংলা"
+      url: "/bn/"
+      weight: 4
+  bn:
+    - name: "হোম"
+      url: "/"
+      weight: 1
+    - name: "আমি"
+      url: "/bn/about/"
+      weight: 2
+    - name: "ব্লগ"
+      url: "/bn/"
+      weight: 3
+    - name: "English"
+      url: "/en/"
+      weight: 5
+
+params:
+  description: "Dr. Enayetur Raheem is a Data Scientist at the Carolinas HealthCare System located in Charlotte, North Carolina, USA."
+  disqusURL: ""
+  fullURL: ""
+  customCSS: ["css/raheems.css"]
+  customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
+  githubContentURL: ""
+
+  # options for highlight.js (version, additional languages, and theme)
+  highlightjsVersion: "9.9.0"
+  highlightjsLang: ["r", "yaml", "tex"]
+  highlightjsTheme: "github"
+
+  social:
+    twitter: "eraheem"
+    #weibo: ""
+    #weibo_url: ""
+    github: "raheems"
+
+  logo:
+    url: "raheem.jpg"
+    width: 50
+    height: 50
+    alt: "Enayetur Raheem"
+
+  author:
+    en: "Enayet Raheem"
+    bn: "এনায়েত"
+
+  lang:
+    edit:
+      en: "Suggest an edit of this page"
+      bn: "এডিট সাজেস্ট করুন"
+
+blackfriday:
+    extensionsmask: ["noIntraEmphasis"]

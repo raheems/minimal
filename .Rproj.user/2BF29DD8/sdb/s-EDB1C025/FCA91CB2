@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : ".content {\n  font-size: 16px;\n  line-heigh20 1.8;\n}\n\n.article-title {\n    font-size: 34px;\n}",
+    "created" : 1499041345505.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "386999651",
+    "id" : "FCA91CB2",
+    "lastKnownWriteTime" : 1499041453,
+    "last_content_update" : 1499041453664,
+    "path" : "~/MyFolder/GitHub/lithium/static/css/raheems.css",
+    "project_path" : "static/css/raheems.css",
+    "properties" : {
+    },
+    "relative_order" : 7,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "css"
+}

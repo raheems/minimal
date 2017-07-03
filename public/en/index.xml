@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>English Blog on Enayetur Raheem</title>
+    <link>/en/</link>
+    <description>Recent content in English Blog on Enayetur Raheem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RMarkdown Testing</title>
+      <link>/en/2017/07/rmarkdown-testing/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/2017/07/rmarkdown-testing/</guid>
+      <description>This is a chunk of R code
+# This is R codex &amp;lt;- rnorm(100)hist(x)y &amp;lt;- rnorm(200)plot(y)# Code in Pythonimport numpy as npx = np.array(10)print(x)## 10Now trying code in SAS
+# Code in SAS# Highlights not showingproc sql;select * from aquit;</description>
+    </item>
+    
+    <item>
+      <title>Testing code embedding in Markdown</title>
+      <link>/en/2017/02/code-embedding-in-markdown/</link>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/2017/02/code-embedding-in-markdown/</guid>
+      <description>This is a chunk of R code
+# This is R codex &amp;lt;- rnorm(100)hist(x)y &amp;lt;- rnorm(200)plot(y)Now testing python code# Code in Pythonimport numpy as npx = np.array(10)print(x)## 10Now trying code in SAS# Code in SAS# Highlights not showingproc sql;select * from aquit;</description>
+    </item>
+    
+    <item>
+      <title>Testing code embedding in Markdown</title>
+      <link>/en/2017/02/code-embedding-in-markdown/</link>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/2017/02/code-embedding-in-markdown/</guid>
+      <description>This is a chunk of R code
+# This is R code x &amp;lt;- rnorm(100) hist(x)  # Code in Python import numpy as np x = np.array(10) print(x)  ## 10  Now trying code in SAS
+# Code in SAS # Highlights not showing proc sql; select * from a quit;  </description>
+    </item>
+    
+  </channel>
+</rss>

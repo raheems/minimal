@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Enayetur Raheem&#39;s Homepage on Enayetur Raheem</title>
+    <link>/</link>
+    <description>Recent content in Enayetur Raheem&#39;s Homepage on Enayetur Raheem</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 31 Jan 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>RMarkdown Testing</title>
+      <link>/en/2017/07/rmarkdown-testing/</link>
+      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/2017/07/rmarkdown-testing/</guid>
+      <description>This is a chunk of R code
+# This is R codex &amp;lt;- rnorm(100)hist(x)y &amp;lt;- rnorm(200)plot(y)# Code in Pythonimport numpy as npx = np.array(10)print(x)## 10Now trying code in SAS
+# Code in SAS# Highlights not showingproc sql;select * from aquit;</description>
+    </item>
+    
+    <item>
+      <title>বাংলা পোস্ট</title>
+      <link>/bn/2017/03/looking-for-interested-researcher/</link>
+      <pubDate>Sat, 04 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/bn/2017/03/looking-for-interested-researcher/</guid>
+      <description>একটা বিড়ালের একটা ইঁদুর খেতে ১ মিনিট লাগলে ১০০টা বিড়ালের ১০০টা ইঁদুর খেতে কয় মিনিট লাগবে? এরকম একটা প্রশ্ন অনেক আগে শুনেছিলাম। সব কন্ডিশন ঠিক থাকলে ১ মিনিটই লাগার কথা। সহজ উত্তর।
+আমরা এই মুহূর্তে দুই জন রিসার্চার দুইটি ইন্ডিপেন্ডেন্ট প্রজেক্ট লিড করছি। ৩-৫ মাসের মধ্যে হয়তো ড্রাফট তৈরী হবে। আরো ৬ মাসের মধ্যে আশা করা যায় পাবলিশ হবে অথবা রিভিশন হবে।
+অর্থাৎ এই রেইটে বছরে ২টি পাবলিকেশন করা যাবে।</description>
+    </item>
+    
+    <item>
+      <title>Testing code embedding in Markdown</title>
+      <link>/en/2017/02/code-embedding-in-markdown/</link>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/2017/02/code-embedding-in-markdown/</guid>
+      <description>This is a chunk of R code
+# This is R codex &amp;lt;- rnorm(100)hist(x)y &amp;lt;- rnorm(200)plot(y)Now testing python code# Code in Pythonimport numpy as npx = np.array(10)print(x)## 10Now trying code in SAS# Code in SAS# Highlights not showingproc sql;select * from aquit;</description>
+    </item>
+    
+    <item>
+      <title>Testing code embedding in Markdown</title>
+      <link>/en/2017/02/code-embedding-in-markdown/</link>
+      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/2017/02/code-embedding-in-markdown/</guid>
+      <description>This is a chunk of R code
+# This is R code x &amp;lt;- rnorm(100) hist(x)  # Code in Python import numpy as np x = np.array(10) print(x)  ## 10  Now trying code in SAS
+# Code in SAS # Highlights not showing proc sql; select * from a quit;  </description>
+    </item>
+    
+    <item>
+      <title>A Sample Page</title>
+      <link>/cool/sample/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/cool/sample/</guid>
+      <description>This is a sample page.</description>
+    </item>
+    
+    <item>
+      <title>Not Found</title>
+      <link>/404/</link>
+      <pubDate>Tue, 31 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/404/</guid>
+      <description>Page not found.</description>
+    </item>
+    
+    <item>
+      <title>A Plain Markdown Post</title>
+      <link>/post/2016-12-30-hello-markdown/</link>
+      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      
+      <guid>/post/2016-12-30-hello-markdown/</guid>
+      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
+ You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
+      
+      <guid>/about/</guid>
+      <description>This is a &amp;ldquo;hello world&amp;rdquo; example website for the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
+    </item>
+    
+    <item>
+      <title>Hello R Markdown</title>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
+      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
+      
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
+      <description>R MarkdownThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
+You can embed an R code chunk like this:
+summary(cars)## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
+    </item>
+    
+    <item>
+      <title>Lorem Ipsum</title>
+      <link>/post/2015-01-01-lorem-ipsum/</link>
+      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
+      
+      <guid>/post/2015-01-01-lorem-ipsum/</guid>
+      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>/en/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/about/</guid>
+      <description>I am statistician by training with more than 15 years of experience in academia and industry combined. As a data scientist in clinical neurosciences, I work with clinicians and program directors and utilize machine learning algorithms to uncover information hidden in the massive amount of unprocessed healthcare data.
+I have over 10 years of experience in building predictive models utilizing statistical techniques to evaluate scenarios and to make predictions on future outcomes in order to solve complex business problems that support decision making.</description>
+    </item>
+    
+    <item>
+      <title>Curriculum Vitae</title>
+      <link>/en/vitae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/en/vitae/</guid>
+      <description> Enayetur Raheem, PhD Data Scientist (Neurosciences)
+Carolinas HealthCare System 720 E Morehead St.
+Charlotte, NC 28075, USA
+Employments    Years Institution     Jun 2016 &amp;ndash; Carolinas HealthCare System, Charlotte, NC, USA   Aug 2013 &amp;ndash; May 2016 University of Northern Colorado, Greeley, CO, USA    Education  PhD in Statistics, 2012, University of Windsor, Windsor, Ontario, Canada Masters in Statistics, 2005, McMaster University, Hamilton, Ontario, Canada Masters in Applied Statistics, 2000, University of Dhaka, Bangladesh  </description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/publications/</guid>
+      <description>2017  Hossain, M. S., Raheem, E., Sultana, T. A., Ferdous, S., Nahar, N., Islam, S., &amp;hellip; &amp;amp; Khatun, H. (2017). Thalassemias in South Asia: clinical lessons learnt from Bangladesh. Orphanet Journal of Rare Diseases, 12(1), 93.  2016  Dey, S., &amp;amp; Raheem, E. (2016). Multilevel multinomial logistic regression model for identifying factors associated with anemia in children 6–59 months in northeastern states of India. Cogent Mathematics, 3(1), 1159798.</description>
+    </item>
+    
+    <item>
+      <title>Research</title>
+      <link>/research/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/research/</guid>
+      <description>My research is focused on building better predictive models through improved estimation of regression parameters. I am interested in the development and application of James-Stein type shrinkage estimation in parametric and semiparametric regression models and their comparisons with penalty estimators. In the event of a trade-off between bias and prediction error, James-Stein-type methods tend to achieve reduced overall prediction error that offsets the bias in the estimation.
+Thalassemias Thalassemias are emerging as a global public health concern.</description>
+    </item>
+    
+    <item>
+      <title>আমি</title>
+      <link>/bn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bn/about/</guid>
+      <description>আমি এনায়েত।</description>
+    </item>
+    
+    <item>
+      <title>সিভি</title>
+      <link>/bn/vitae/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bn/vitae/</guid>
+      <description>নাম শিক্ষা আমার সিভি</description>
+    </item>
+    
+  </channel>
+</rss>
