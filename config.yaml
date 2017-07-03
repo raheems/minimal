@@ -63,7 +63,7 @@ params:
   description: "Dr. Enayetur Raheem is a Data Scientist at the Carolinas HealthCare System located in Charlotte, North Carolina, USA."
   disqusURL: ""
   fullURL: ""
-  customCSS: ["css/raheems.css"]
+  customCSS: ["css/custom.css"]
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
   githubContentURL: ""
 
