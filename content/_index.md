@@ -12,9 +12,9 @@ Data Scientist (Neurosciences) <br>
 Carolinas HealthCare System <br>
 Charlotte, NC, 28202, USA <br>
 
-Dr. Raheem is statistician by training with more than 15 years of experience in academia and industry combined. As a data scientist in clinical neurosciences, he works with clinicians and program directors and utilize machine learning algorithms to uncover information hidden in the massive amount of unprocessed healthcare data. 
+Dr. Raheem is statistician by training with more than 15 years of experience in academia and industry combined. As a data scientist in clinical neurosciences, he works with clinicians and program directors and utilizes machine learning algorithms to uncover information hidden in the massive amount of unprocessed healthcare data. 
 
-He has over 10 years of experience in building predictive models utilizing statistical techniques to evaluate scenarios and to make predictions on future outcomes in order to solve complex business problems that support decision making.
+He has over 10 years of experience in building predictive models to evaluate scenarios and to make predictions on future outcomes in order to solve complex business problems that support decision making.
 
 As a subject matter expert, he provides strategic thoughts for the development, validation, and use of algorithms and statistical models in projects that involve multiple resources and tasks. 
 
