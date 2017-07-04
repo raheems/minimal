@@ -99,43 +99,45 @@
     
     <div class="article-content">
       <p>This is a chunk of R code</p>
-<pre class="r"><code># This is R code
+
+<pre><code class="language-r"># This is R code
 x &lt;- rnorm(100)
-hist(x)</code></pre>
-<p><img src="/en/2017-02-26-my-first-blog-post_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
-<pre class="r"><code>y &lt;- rnorm(200)
-plot(y)</code></pre>
-<p><img src="/en/2017-02-26-my-first-blog-post_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
-<div id="now-testing-python-code" class="section level2">
-<h2>Now testing python code</h2>
-<pre class="python"><code># Code in Python
+hist(x)
+</code></pre>
+
+<p><img src="/figures/en/2017-02-26-my-first-blog-post/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1" /></p>
+
+<pre><code class="language-python"># Code in Python
 import numpy as np
 x = np.array(10)
-print(x)</code></pre>
-<pre><code>## 10</code></pre>
-</div>
-<div id="now-trying-code-in-sas" class="section level2">
-<h2>Now trying code in SAS</h2>
-<pre class="sas"><code># Code in SAS
+print(x)
+</code></pre>
+
+<pre><code>## 10
+</code></pre>
+
+<p>Now trying code in SAS</p>
+
+<pre><code># Code in SAS
 # Highlights not showing
 proc sql;
 select * from a
-quit;</code></pre>
-</div>
+quit;
+</code></pre>
 
     </div>
     
 
 <nav id="article-nav">
     
-    <a href="/en/2017/02/code-embedding-in-markdown/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Testing code embedding in Markdown</div>
+    <a href="/en/2015/07/hello-r-markdown/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Hello R Markdown</div>
     </a>
     
 
     
-    <a href="/en/2017/07/rmarkdown-with-r-python/" id="article-nav-newer" class="article-nav-link-wrap">
-      <div class="article-nav-title">Rmarkdown Examples with R and Python <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
+    <a href="/en/2017/02/code-embedding-in-markdown/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title">Testing code embedding in Markdown <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
     </a>
     
 </nav>
@@ -145,11 +147,11 @@ document.addEventListener('keyup', function(e) {
   var url = false;
   if (e.which == 37) {  
     
-    url = '\/en\/2017\/02\/code-embedding-in-markdown\/';
+    url = '\/en\/2015\/07\/hello-r-markdown\/';
     
   } else if (e.which == 39) {  
     
-    url = '\/en\/2017\/07\/rmarkdown-with-r-python\/';
+    url = '\/en\/2017\/02\/code-embedding-in-markdown\/';
     
   }
   if (url) window.location = url;
@@ -208,6 +210,16 @@ document.addEventListener('keyup', function(e) {
     
 
     
+<script>
+(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+ga('create', 'UA-684495-5', 'auto');
+ga('send', 'pageview');
+</script>
+
   </body>
 </html>
 
