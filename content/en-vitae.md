@@ -4,7 +4,7 @@ slug: "en/vitae"
 disable_comments: true
 ---
 
-**Enayetur Raheem**, PhD <br>
+Enayetur Raheem, PhD <br>
 Data Scientist (Neurosciences)<br>
 Carolinas HealthCare System <br>
 720 E Morehead St.<br>
@@ -27,8 +27,21 @@ Charlotte, NC 28202, USA
 * Masters in Statistics, 2005, McMaster University, Hamilton, Ontario, Canada
 * Masters in Applied Statistics, 2000, University of Dhaka, Bangladesh
 
-## Publications
+## Current Projects 
 
+### Chickungunya
+
+The following is from Wikipedia [^1]. Chikungunya is an infection caused by the chikungunya virus (CHIKV). Symptoms include fever and joint pain. Other symptoms may include headache, muscle pain, joint swelling, and a rash. Most people are better within a week; however, occasionally the joint pain may last for months. The risk of death is around 1 in 1,000. The very young, old, and those with other health problems are at risk of more severe disease. The virus is spread between people by two types of mosquitos: *Aedes albopictus* and *Aedes aegypti*. Diagnosis is by either testing the blood for the virus's RNA or antibodies to the virus. The symptoms can be mistaken for those of dengue fever and Zika fever. After a single infection it is believed most people become immune.
+
+[^1]: From [Wikipedia](https://en.wikipedia.org/wiki/Chikungunya). 
+
+
+### Autism
+
+Autism spectrum disorder (ASD) is a neurodevelopmental disability which has surfaced as a public concern worldwide. ASD is noticeable at early childhood (preschool stages) which is often characterized by developmental impairment in social communication and interaction, repetitive patterns of behaviors or activities.
+
+
+## Publications
 
 2017 
 
