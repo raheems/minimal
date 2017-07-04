@@ -1,9 +1,9 @@
 <script async src="https://use.fontawesome.com/32c3d13def.js"></script>
 
 {{ if .Params.og_image }}
-      <meta property="og:image" content="http://{{ .Params.og_image | absURL }}"/>
-<meta property="og:image:secure_url" content="https://{{ .Params.og_image | absURL }}"/>
+      <meta property="og:image" content="http://www.raheems.ca{{ .Params.og_image | relURL }}"/>
+<meta property="og:image:secure_url" content="https://www.raheems.ca{{ .Params.og_image | relURL }}"/>
       {{ else }}
-<meta property="og:image" content="http://{{ .Site.Params.og_image | absURL }}"/>
-      <meta property="og:image:secure_url" content="https://{{ .Site.Params.og_image | absURL }}"/>
+<meta property="og:image" content="http://www.raheems.ca{{ .Site.Params.og_image | relURL }}"/>
+      <meta property="og:image:secure_url" content="https://www.raheems.ca{{ .Site.Params.og_image | relURL }}"/>
       {{ end }}
