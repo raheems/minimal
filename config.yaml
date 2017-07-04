@@ -1,4 +1,4 @@
-baseurl: "/"
+baseurl: "www.raheems.ca/"
 relativeurls: true
 languageCode: "en-us"
 title: "Enayetur Raheem"
@@ -55,7 +55,7 @@ menu:
       weight: 5
 
 params:
-  description: "Dr. Enayetur Raheem is a Data Scientist at the Carolinas HealthCare System located in Charlotte, North Carolina, USA."
+  description: "Dr. Raheem is statistician by training with more than 15 years of experience in academia and industry combined. As a data scientist in clinical neurosciences, he works with clinicians and program directors and utilizes machine learning algorithms to uncover information hidden in the massive amount of unprocessed healthcare data."
   disqusURL: ""
   fullURL: ""
   customCSS: ["css/custom.css"]
@@ -66,6 +66,8 @@ params:
   highlightjsVersion: "9.9.0"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
+  
+  og_image: "static/images/collaborative_research.png"
 
   social:
     twitter: "eraheem"
