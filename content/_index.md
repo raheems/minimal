@@ -17,7 +17,7 @@ He has over 10 years of experience in building predictive models to evaluate sce
 
 As a subject matter expert, he provides strategic thoughts for the development, validation, and use of algorithms and statistical models in projects that involve multiple resources and tasks. 
 
-[R](https://www.r-project.org/) is he analytic *lingua franca* and  [Python](https://www.python.org/) comes second. He uses [SAS](https://www.sas.com) for data management and standard statistical analysis of structured data.
+[R](https://www.r-project.org/) is his analytic *lingua franca* and  [Python](https://www.python.org/) comes second. He uses [SAS](https://www.sas.com) for data management and standard statistical analysis of structured data.
 
 # Contact
 
