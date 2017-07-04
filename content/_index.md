@@ -11,7 +11,7 @@ disable_highlight: true
 **Enayetur Raheem**, PhD <br>
 Data Scientist (Healthcare)
 
-Dr. Raheem is statistician by training with more than 15 years of experience in academia and industry combined. As a data scientist in clinical neurosciences, he works with clinicians and program directors and utilizes machine learning algorithms to uncover information hidden in the massive amount of unprocessed healthcare data. 
+Dr. Raheem is statistician with more than 15 years of experience in academia and industry combined. As a healthcare data scientist he provides strategic guidance for the development, validation, and use of algorithms for data based decision making.
 
 He has over 10 years of experience in building predictive models to evaluate scenarios and to make predictions on future outcomes in order to solve complex business problems that support decision making.
 
