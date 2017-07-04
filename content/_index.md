@@ -10,7 +10,7 @@ disable_highlight: true
 **Enayetur Raheem**, PhD <br>
 Data Scientist (Neurosciences) <br>
 Carolinas HealthCare System <br>
-Charlotte, NC, 20202, USA <br>
+Charlotte, NC, 28202, USA <br>
 
 I am statistician by training with more than 15 years of experience in academia and industry combined. As a data scientist in clinical neurosciences, I work with clinicians and program directors and utilize machine learning algorithms to uncover information hidden in the massive amount of unprocessed healthcare data. 
 
