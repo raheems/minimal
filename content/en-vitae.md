@@ -77,3 +77,22 @@ Charlotte, NC 28075, USA
 2002
 
 * **Raheem, S.** and Sekander Hayat Khan (2002). Combining Probability of Emptiness and Mean First Overflow Time of a Dam to Determine its Capacity. [*Journal of Spatial Hydrology*](http://www.spatialhydrology.net/index.php/JOSH/article/view/12/12), Vol. 2, No.2.
+
+## Courses Taught
+
+* Introductory Statistics (undergrad level)
+* Mathematical Statistics (undergrad level)
+* Experimental Design (grad level)
+* Introduction to Statistical Computing (with SAS) (grad)
+* Advanced Statistical Programming	with SAS (grad)
+* Multivariate Analysis (Theory and Applications)	(grad)
+
+## Professional Membership
+
+- Member, American Statistical Association (ASA) (2010 ~)
+- Member, Statistical Society of Canada (SSC)
+- Life member, Bangladesh Statistical Society
+- Life member, Bangladesh Association for the Advancement of Science
+
+
+
