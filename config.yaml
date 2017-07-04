@@ -16,10 +16,10 @@ permalinks:
 
 menu:
   main:
-    - name: "Vitae"
+    - name: "VITAE"
       url: "/en/vitae/"
       weight: 1
-    - name: "Blog"
+    - name: "BLOG"
       url: "/en/"
       weight: 2
     - name: "বাংলা"
@@ -28,13 +28,13 @@ menu:
 
 
   en:
-    - name: "Home"
+    - name: "HOME"
       url: "/"
       weight: 1
-    - name: "Vitae"
+    - name: "VITAE"
       url: "/en/vitae/"
       weight: 2
-    - name: "Blog"
+    - name: "BLOG"
       url: "/en/"
       weight: 3
     - name: "বাংলা"
@@ -50,7 +50,7 @@ menu:
     - name: "ব্লগ"
       url: "/bn/"
       weight: 3
-    - name: "English"
+    - name: "ENGLISH"
       url: "/en/"
       weight: 5
 
