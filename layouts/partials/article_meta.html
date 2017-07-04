@@ -12,7 +12,6 @@
     <a href="/{{ . }}/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
     {{ end }}
     <a href="https://twitter.com/home?{{ (querify "status" (print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.twitter )) | safeURL }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
-    <a href="https://www.facebook.com/sharer/sharer.php??{{ (querify "u" (print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.facebook )) | safeURL }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true" title="Share via Facebook"></i></a>
     {{ with .Site.Params.githubContentURL }}
     {{ $.Scratch.Set "filePath" $.File.Path }}
     {{ if $.Params.from_Rmd }}
