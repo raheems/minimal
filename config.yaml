@@ -55,7 +55,7 @@ params:
 
   description: "Dr. Raheem is statistician with more than 15 years of experience in academia and industry combined. As a healthcare data scientist he provides strategic guidance for the development, validation, and use of algorithms for data based decision making."
   disqusURL: ""
-  fullURL: ""
+  fullURL: "https://www.raheems.ca"
   customCSS: ["css/custom.css"]
   customJS: ["js/center-img.js", "js/right-quote.js", "js/no-highlight.js", "js/fix-footnote.js"]
   githubContentURL: ""
