@@ -7,7 +7,7 @@ disable_highlight: true
 
 # About
 
-**Enayet Raheem**, PhD <br>
+**Enayetur Raheem**, PhD <br>
 Data Scientist (Neurosciences) <br>
 Carolinas HealthCare System <br>
 Charlotte, NC, 20202, USA <br>
