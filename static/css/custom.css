@@ -31,7 +31,7 @@ a {
   margin-bottom: 15px;
 }
 #article-nav-older, #article-nav-newer, .article-date span {
-  flex: 2;
+  flex: 1;
 }
 #article-nav-newer, .article-date .article-toolbar {
   text-align: right;
