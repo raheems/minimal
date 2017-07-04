@@ -1,5 +1,5 @@
 ---
-title: Enayetur Raheem's Homepage
+title: Enayetur Raheem 's Homepage
 date: '2017-01-31'
 disable_mathjax: true
 disable_highlight: true
