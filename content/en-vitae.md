@@ -8,7 +8,7 @@ disable_comments: true
 Data Scientist (Neurosciences)<br>
 Carolinas HealthCare System <br>
 720 E Morehead St.<br>
-Charlotte, NC 28075, USA
+Charlotte, NC 28202, USA
 
 ## Employments
 
