@@ -1,7 +1,7 @@
 baseurl: "/"
 relativeurls: true
 languageCode: "en-us"
-title: "Enayetur Raheem"
+title: "Enayetur Raheem | এনায়েতুর রহীম"
 theme: "hugo-lithium-theme"
 googleAnalytics: "UA-684495-5"
 disqusShortname: ""
@@ -44,9 +44,6 @@ menu:
     - name: "হোম"
       url: "/"
       weight: 1
-    - name: "আমি"
-      url: "/bn/about/"
-      weight: 2
     - name: "ব্লগ"
       url: "/bn/"
       weight: 3
@@ -55,7 +52,7 @@ menu:
       weight: 5
 
 params:
-  
+
   description: "Dr. Raheem is statistician with more than 15 years of experience in academia and industry combined. As a healthcare data scientist he provides strategic guidance for the development, validation, and use of algorithms for data based decision making."
   disqusURL: ""
   fullURL: ""
@@ -67,7 +64,7 @@ params:
   highlightjsVersion: "9.9.0"
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
-  
+
   og_image: "images/collaborative_research.png"
 
   social:
