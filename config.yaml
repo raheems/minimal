@@ -68,7 +68,7 @@ params:
   highlightjsLang: ["r", "yaml", "tex"]
   highlightjsTheme: "github"
   
-  og_image: "static/images/collaborative_research.png"
+  og_image: "images/collaborative_research.png"
 
   social:
     twitter: "eraheem"
