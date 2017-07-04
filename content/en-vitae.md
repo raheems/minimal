@@ -14,7 +14,7 @@ Charlotte, NC 28202, USA
 
  Years        | Institution  
  -------------| -----
- Jun 2016 ~    | Carolinas HealthCare System, Charlotte, NC, USA
+ Jun 2016 ~    | Data Scientist, Carolinas HealthCare System, Charlotte, NC, USA
  Aug 2013 ~ May 2016 | Assistant Professor of Applied Statistics, University of Northern Colorado, Greeley, CO, USA
  Aug 2012 ~ May 2013 | Assistant Professor of Statistics, University of Wisconsin-Green Bay, Green Bay, WI, USA
  Jan 2010 ~ Aug 2012 | Data Analyst, Windsor-Essex County Health Unit, Windsor, Ontario, Canada

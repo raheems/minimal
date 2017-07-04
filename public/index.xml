@@ -301,16 +301,6 @@ quit;
     </item>
     
     <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
-      
-      <guid>/about/</guid>
-      <description>&lt;p&gt;This is a &amp;ldquo;hello world&amp;rdquo; example website for the &lt;a href=&#34;https://github.com/rstudio/blogdown&#34;&gt;&lt;strong&gt;blogdown&lt;/strong&gt;&lt;/a&gt; package. The theme was forked from &lt;a href=&#34;https://github.com/jrutheiser/hugo-lithium-theme&#34;&gt;@jrutheiser/hugo-lithium-theme&lt;/a&gt; and modified by &lt;a href=&#34;https://github.com/yihui/hugo-lithium-theme&#34;&gt;Yihui Xie&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Testing R Markdown</title>
       <link>/en/2015/07/testing-r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -405,7 +395,7 @@ Charlotte, NC 28202, USA&lt;/p&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
 &lt;td&gt;Jun 2016 ~&lt;/td&gt;
-&lt;td&gt;Carolinas HealthCare System, Charlotte, NC, USA&lt;/td&gt;
+&lt;td&gt;Data Scientist, Carolinas HealthCare System, Charlotte, NC, USA&lt;/td&gt;
 &lt;/tr&gt;
 
 &lt;tr&gt;
@@ -577,6 +567,16 @@ Charlotte, NC 28202, USA&lt;/p&gt;
 &lt;p&gt;Thalassemias are emerging as a global public health concern. Due to remarkable success in the reduction of childhood mortality by controlling infectious diseases in developing countries, thalassemias are likely to be a major public health concern in the coming decades in South Asia. Despite the fact that Bangladesh lies in the world’s thalassemia belt, the information on different aspects (epidemiology, clinical course, mortality, complications and treatment outcomes) of thalassemias is lacking.&lt;/p&gt;
 
 &lt;h2 id=&#34;autism&#34;&gt;Autism&lt;/h2&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>আমি</title>
+      <link>/bn/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/bn/about/</guid>
+      <description>&lt;p&gt;আমি এনায়েত।&lt;/p&gt;
 </description>
     </item>
     
