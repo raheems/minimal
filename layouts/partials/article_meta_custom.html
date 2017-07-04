@@ -11,8 +11,7 @@
     {{ with .Section }}
     <a href="/{{ . }}/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
     {{ end }}
-    <a href="https://twitter.com/home?{{ (querify "status" (print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.twitter )) | safeURL }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
-    <a href="https://facebook.com/sharer.php?{{ (querify "u" (print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.facebook )) | safeURL }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true" title="Share via Facebook"></i></a>
+
     {{ with .Site.Params.githubContentURL }}
     {{ $.Scratch.Set "filePath" $.File.Path }}
     {{ if $.Params.from_Rmd }}
@@ -21,6 +20,15 @@
     <a href="{{ or $.Params.githubEditURL  (print .  ($.Scratch.Get "filePath")) }}"><i class="fa fa-pencil-square-o" aria-hidden="true" title="{{ default (index $.Site.Params.lang.edit.en) (index $.Site.Params.lang.edit $.Section) }}"></i></a>
     {{ end }}
     </span>
-
+<!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_google_plus"></a>
+<a class="a2a_button_linkedin"></a>
+</div>
+<script async src="https://static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
 </div>
 {{ end }}
