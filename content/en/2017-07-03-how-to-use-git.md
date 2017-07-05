@@ -1,8 +1,8 @@
 ---
-title: "How to use Git"
+title: Git for biginners
 author: Enayetur Raheem
 date: '2017-07-03'
-slug: git essentials
+slug: git for biginners
 draft: true
 categories: []
 tags: [git]

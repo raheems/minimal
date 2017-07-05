@@ -1,8 +1,11 @@
+
 .content {
   font-size: 16px;
-  line-heigh20 1.8;
+  line-height: 1.8;
 }
 
+@media (min-width: 600px){
 .article-title {
-    font-size: 34px;
+    font-size: 38px;
+  }
 }
