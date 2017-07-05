@@ -15,7 +15,7 @@ Dr. Raheem is statistician with more than 15 years of experience in academia and
 
 He has over 10 years of experience in building predictive models to evaluate scenarios and to make predictions on future outcomes in order to solve complex business problems that support decision making.
 
-[R](https://www.r-project.org/) is his analytic *lingua franca* and  [Python](https://www.python.org/) comes second. He uses [SAS](https://www.sas.com) for data management and standard statistical analysis of structured data.
+[R](https://www.r-project.org/) is his analytic *lingua franca* and  [Python](https://www.python.org/) comes second. He uses [SAS](https://www.sas.com) for management of structured data (e.g., data warehouse) and for standard statistical analysis. 
 
 # Contact
 
