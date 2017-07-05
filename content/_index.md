@@ -1,12 +1,10 @@
 ---
 title: Homepage
-date: '2017-01-31'
+date: '2017-07-04'
 disable_mathjax: true
 disable_highlight: true
+disable_comment: true
 ---
-
-
-# About
 
 
 ![Enayetur Raheem](images/raheem.jpg)
