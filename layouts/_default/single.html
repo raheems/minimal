@@ -6,7 +6,7 @@
     {{ if eq .Section "en" }}
     <span class="article-duration">{{ .ReadingTime }} min read</span>
     {{ else if eq .Section "bn" }}
-    <span class="article-duration">{{ .WordCount }} 字</span>
+    <span class="article-duration">{{ .WordCount }} শব্দ</span>
     {{ end }}
     {{ partial "article_meta.html" . }}
 
