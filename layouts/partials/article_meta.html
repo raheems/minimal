@@ -4,15 +4,17 @@
 {{ end }}
 </h1>
 
-{{ if or (in (split "en,bn" ",") .Section) .Params.author }}
+{{ if or (in (split "en,cn" ",") .Section) .Params.author }}
 <div class="article-date">
   <span>{{ with or (or .Params.author (index .Site.Params.author .Section)) "" }} {{  print . " · " }} {{ end }} {{ .Date.Format "2006/01/02" }}</span>
   <span class="article-toolbar">
     {{ with .Section }}
     <a href="/{{ . }}/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
     {{ end }}
-    <a href="https://twitter.com/home?{{ (querify " status "(print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.twitter )) | safeURL }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
+    <a href="https://twitter.com/home?{{ (querify "status" (print .Title " " .Site.Params.fullURL .URL " via @" .Site.Params.social.twitter )) | safeURL }}" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
+    
     <a href="https://www.facebook.com/sharer/sharer.php?{{ (querify "u" (print .Site.Params.fullURL .URL) "" (print .Title " @" .Site.Params.social.facebook)) | safeURL }}" target="_blank"><i class="fa fa-facebook" aria-hidden="true" title="Share via Facebook"></i></a>
+    
     {{ with .Site.Params.githubContentURL }}
     {{ $.Scratch.Set "filePath" $.File.Path }}
     {{ if $.Params.from_Rmd }}
@@ -21,6 +23,5 @@
     <a href="{{ or $.Params.githubEditURL  (print .  ($.Scratch.Get "filePath")) }}"><i class="fa fa-pencil-square-o" aria-hidden="true" title="{{ default (index $.Site.Params.lang.edit.en) (index $.Site.Params.lang.edit $.Section) }}"></i></a>
     {{ end }}
     </span>
-
 </div>
 {{ end }}
