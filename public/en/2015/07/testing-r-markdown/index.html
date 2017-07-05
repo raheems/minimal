@@ -70,7 +70,7 @@
 
   <article class="article">
     
-    <span class="article-duration">1 min read</span>
+    <span class="article-duration">2 min read</span>
     
     <h1 class="article-title">Testing R Markdown
 
@@ -134,7 +134,25 @@ pie(
 Figure 1: A fancy pie chart.
 </p>
 </div>
-<pre><code>sas code</code></pre>
+<p>This is a chunk of R code</p>
+<pre class="r"><code># This is R code
+x &lt;- rnorm(100)
+hist(x)</code></pre>
+<p><img src="../../../../en/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code>y &lt;- rnorm(200)
+plot(y)</code></pre>
+<p><img src="../../../../en/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
+<pre class="python"><code># Code in Python
+import numpy as np
+x = np.array(10)
+print(x)
+## 10</code></pre>
+<p>Now trying code in SAS</p>
+<pre><code># Code in SAS
+# Highlights not showing
+proc sql;
+select * from a
+quit;</code></pre>
 </div>
 
     </div>
@@ -144,8 +162,8 @@ Figure 1: A fancy pie chart.
     
 
     
-    <a href="../../../../en/2017/02/code-embedding-in-markdown/" id="article-nav-newer" class="article-nav-link-wrap">
-      <div class="article-nav-title">Testing code embedding in Markdown <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
+    <a href="../../../../en/2017/07/git-for-biginners/" id="article-nav-newer" class="article-nav-link-wrap">
+      <div class="article-nav-title">Git for biginners <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
     </a>
     
 </nav>
@@ -157,7 +175,7 @@ document.addEventListener('keyup', function(e) {
     
   } else if (e.which == 39) {  
     
-    url = '\/en\/2017\/02\/code-embedding-in-markdown\/';
+    url = '\/en\/2017\/07\/git-for-biginners\/';
     
   }
   if (url) window.location = url;

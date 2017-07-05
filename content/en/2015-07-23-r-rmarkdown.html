@@ -47,5 +47,23 @@ pie(
 Figure 1: A fancy pie chart.
 </p>
 </div>
-<pre><code>sas code</code></pre>
+<p>This is a chunk of R code</p>
+<pre class="r"><code># This is R code
+x &lt;- rnorm(100)
+hist(x)</code></pre>
+<p><img src="/en/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-1.png" width="672" /></p>
+<pre class="r"><code>y &lt;- rnorm(200)
+plot(y)</code></pre>
+<p><img src="/en/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-2.png" width="672" /></p>
+<pre class="python"><code># Code in Python
+import numpy as np
+x = np.array(10)
+print(x)
+## 10</code></pre>
+<p>Now trying code in SAS</p>
+<pre><code># Code in SAS
+# Highlights not showing
+proc sql;
+select * from a
+quit;</code></pre>
 </div>

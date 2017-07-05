@@ -32,102 +32,6 @@
     </item>
     
     <item>
-      <title>Rmarkdown Examples with R and Python</title>
-      <link>/en/2017/07/rmarkdown-with-r-python/</link>
-      <pubDate>Sun, 02 Jul 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/en/2017/07/rmarkdown-with-r-python/</guid>
-      <description>&lt;p&gt;This is a chunk of R code&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# This is R code
-x &amp;lt;- rnorm(100)
-hist(x)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../en/2017-07-02-rmarkdown-testing_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;y &amp;lt;- rnorm(200)
-plot(y)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../en/2017-07-02-rmarkdown-testing_files/figure-html/unnamed-chunk-1-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;# Code in Python
-import numpy as np
-x = np.array(10)
-print(x)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 10&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;Now trying code in SAS&lt;/p&gt;
-&lt;pre&gt;&lt;code&gt;# Code in SAS
-# Highlights not showing
-proc sql;
-select * from a
-quit;&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Testing code embedding in Markdown</title>
-      <link>/en/2017/02/code-embedding-in-markdown/</link>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/en/2017/02/code-embedding-in-markdown/</guid>
-      <description>&lt;p&gt;This is a chunk of R code&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# This is R code
-x &amp;lt;- rnorm(100)
-hist(x)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../en/2017-02-26-my-first-blog-post_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;y &amp;lt;- rnorm(200)
-plot(y)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;&lt;img src=&#34;../en/2017-02-26-my-first-blog-post_files/figure-html/unnamed-chunk-1-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
-&lt;div id=&#34;now-testing-python-code&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Now testing python code&lt;/h2&gt;
-&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;# Code in Python
-import numpy as np
-x = np.array(10)
-print(x)&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## 10&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;div id=&#34;now-trying-code-in-sas&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Now trying code in SAS&lt;/h2&gt;
-&lt;pre class=&#34;sas&#34;&gt;&lt;code&gt;# Code in SAS
-# Highlights not showing
-proc sql;
-select * from a
-quit;&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Testing code embedding in Markdown</title>
-      <link>/en/2017/02/code-embedding-in-markdown/</link>
-      <pubDate>Sun, 26 Feb 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/en/2017/02/code-embedding-in-markdown/</guid>
-      <description>&lt;p&gt;This is a chunk of R code&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;# This is R code
-x &amp;lt;- rnorm(100)
-hist(x)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;&lt;img src=&#34;../figures/en/2017-02-26-my-first-blog-post/unnamed-chunk-1-1.png&#34; alt=&#34;plot of chunk unnamed-chunk-1&#34; /&gt;&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-python&#34;&gt;# Code in Python
-import numpy as np
-x = np.array(10)
-print(x)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;## 10
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Now trying code in SAS&lt;/p&gt;
-
-&lt;pre&gt;&lt;code&gt;# Code in SAS
-# Highlights not showing
-proc sql;
-select * from a
-quit;
-&lt;/code&gt;&lt;/pre&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Testing R Markdown</title>
       <link>/en/2015/07/testing-r-markdown/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
@@ -172,7 +76,25 @@ pie(
 Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
-&lt;pre&gt;&lt;code&gt;sas code&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;This is a chunk of R code&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# This is R code
+x &amp;lt;- rnorm(100)
+hist(x)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;../en/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;y &amp;lt;- rnorm(200)
+plot(y)&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;img src=&#34;../en/2015-07-23-r-rmarkdown_files/figure-html/unnamed-chunk-1-2.png&#34; width=&#34;672&#34; /&gt;&lt;/p&gt;
+&lt;pre class=&#34;python&#34;&gt;&lt;code&gt;# Code in Python
+import numpy as np
+x = np.array(10)
+print(x)
+## 10&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now trying code in SAS&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Code in SAS
+# Highlights not showing
+proc sql;
+select * from a
+quit;&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 </description>
     </item>

@@ -39,6 +39,31 @@ pie(
 )
 ```
 
+
+This is a chunk of R code
+
+```{r}
+# This is R code
+x <- rnorm(100)
+hist(x)
+y <- rnorm(200)
+plot(y)
 ```
-sas code
+
+```{python}
+# Code in Python
+import numpy as np
+x = np.array(10)
+print(x)
 ```
+
+Now trying code in SAS
+
+```
+# Code in SAS
+# Highlights not showing
+proc sql;
+select * from a
+quit;
+```
+
