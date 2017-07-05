@@ -8,6 +8,10 @@ disable_highlight: true
 
 # About
 
+
+![Enayetur Raheem](images/raheem.jpg)
+
+
 **Enayetur Raheem**, PhD <br>
 Data Scientist (Healthcare)
 
