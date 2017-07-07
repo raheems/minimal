@@ -2,7 +2,7 @@
 draft: no
 disable_comment: false
 title: গবেষণা পদ্ধতি ও কোলাবরেটিভ কাজের ধারা
-slug: ollaborative-research-workflow
+slug: collaborative-research-workflow
 author: ড. এনায়েতুর রহীম
 date: '2017-01-01'
 tag: [গবেষণা, কোলাবরেশন]
