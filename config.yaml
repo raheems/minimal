@@ -53,7 +53,7 @@ menu:
 
 params:
 
-  description: "Dr. Raheem is statistician with more than 15 years of experience in academia and industry combined. As a healthcare data scientist he provides strategic guidance for the development, validation, and use of algorithms for data based decision making."
+  description: "Dr. Raheem is a statistician with more than 15 years of experience in academia and industry combined. As a healthcare data scientist he provides strategic guidance for the development, validation, and use of algorithms for data based decision making."
   disqusURL: ""
   fullURL: "https://www.raheems.ca"
   customCSS: ["css/custom.css"]

@@ -2,14 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Git on Enayetur Raheem | এনায়েতুর রহীম</title>
-    <link>/tags/git/</link>
+    <link>/tags/git/index.xml</link>
     <description>Recent content in Git on Enayetur Raheem | এনায়েতুর রহীম</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 03 Jul 2017 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Git for biginners</title>
@@ -17,8 +14,20 @@
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>
       
       <guid>/en/2017/07/git-for-biginners/</guid>
-      <description>Working with git for the first time can be time consuming. If you can phrase the right question, you might be lucky to find the answer you were looking for. Often, the answers contain some jargons which you are not familiar with.
-Here I am listing some common tasks with git that beginners might find useful. There are plenty of resources available online. I will list some of them which I found useful.</description>
+      <description>
+
+&lt;p&gt;Working with git for the first time can be time consuming. If you can phrase the right question, you might be lucky to find the answer you were looking for. Often, the answers contain some jargons which you are not familiar with.&lt;/p&gt;
+
+&lt;p&gt;Here I am listing some common tasks with git that beginners might find useful. There are plenty of resources available online. I will list some of them which I found useful.&lt;/p&gt;
+
+&lt;h1 id=&#34;git-for-windows&#34;&gt;Git for Windows&lt;/h1&gt;
+
+&lt;p&gt;I use git in Windows. Google it and then download and install in your PC. Mac users probably have git already installed. If not, please ues the process appropriate for Mac. Good would help you.&lt;/p&gt;
+
+&lt;h1 id=&#34;bring-a-remote-repository-to-your-local-computer&#34;&gt;Bring a remote repository to your local computer&lt;/h1&gt;
+
+&lt;p&gt;This is called cloning. You need to clone a remote repository to your local PC (or Mac). For this you need to&lt;/p&gt;
+</description>
     </item>
     
   </channel>

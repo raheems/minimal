@@ -4,6 +4,7 @@ date: '2017-07-04'
 disable_mathjax: true
 disable_highlight: true
 disable_comment: true
+description: Dr. Raheem is a statistician with more than 15 years of experience in academia and industry combined. As a healthcare data scientist he provides strategic guidance for the development, validation, and use of algorithms for data based decision making.
 ---
 
 
