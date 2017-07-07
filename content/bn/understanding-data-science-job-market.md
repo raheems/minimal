@@ -2,7 +2,7 @@
 draft: no
 disable_comment: false
 title: ডেটা সায়েন্স- আপনার উপযুক্ত জব কোনটি?
-slug: "data science job types"
+slug: understanding-data-science-job-market
 author: ড. এনায়েতুর রহীম
 date: '2016-11-19'
 og_image: images/etl-data-science.png
