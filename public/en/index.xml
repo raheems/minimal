@@ -20,10 +20,13 @@
 
 &lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
 &lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
-&lt;div id=&#34;string-manipulation&#34; class=&#34;section level1&#34;&gt;
-&lt;h1&gt;String Manipulation&lt;/h1&gt;
-&lt;div id=&#34;remove-characters-from-a-string&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Remove characters from a string&lt;/h2&gt;
+&lt;div id=&#34;working-with-date&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Working with Date&lt;/h2&gt;
+&lt;/div&gt;
+&lt;div id=&#34;string-manipulation&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;String Manipulation&lt;/h2&gt;
+&lt;div id=&#34;remove-characters-from-a-string&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Remove characters from a string&lt;/h3&gt;
 &lt;p&gt;Use the &lt;code&gt;COMPRESS&lt;/code&gt; function to remove characters from the string.&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;data test;
 x = &amp;quot;DC98699&amp;quot;;

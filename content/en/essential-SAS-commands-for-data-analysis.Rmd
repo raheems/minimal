@@ -11,9 +11,12 @@ og_image:
 description: A list of SAS with examples for day to day data wrangling.
 ---
 
-# String Manipulation
+## Working with Date
 
-## Remove characters from a string
+
+## String Manipulation
+
+### Remove characters from a string
 
 Use the `COMPRESS` function to remove characters from the string.
 
