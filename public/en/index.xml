@@ -10,6 +10,37 @@
     <atom:link href="/en/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>SAS Essentials for Data Analysis</title>
+      <link>/en/2017/07/sas-essentials-for-data-analysis/</link>
+      <pubDate>Fri, 07 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/en/2017/07/sas-essentials-for-data-analysis/</guid>
+      <description>&lt;!-- BLOGDOWN-HEAD --&gt;
+&lt;!-- /BLOGDOWN-HEAD --&gt;
+
+&lt;!-- BLOGDOWN-BODY-BEFORE --&gt;
+&lt;!-- /BLOGDOWN-BODY-BEFORE --&gt;
+&lt;div id=&#34;string-manipulation&#34; class=&#34;section level1&#34;&gt;
+&lt;h1&gt;String Manipulation&lt;/h1&gt;
+&lt;div id=&#34;remove-characters-from-a-string&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Remove characters from a string&lt;/h2&gt;
+&lt;p&gt;Use the &lt;code&gt;COMPRESS&lt;/code&gt; function to remove characters from the string.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;data test;
+x = &amp;quot;DC98699&amp;quot;;
+y = &amp;quot;C98374928345&amp;quot;;
+
+* Removing the alphabates from the x column;
+x1 = compress(x, , &amp;quot;a&amp;quot;);
+
+# removing the alphabatest from y column;
+y1 = compress(y, , &amp;#39;a&amp;#39;);
+run;&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Git for biginners</title>
       <link>/en/2017/07/git-for-biginners/</link>
       <pubDate>Mon, 03 Jul 2017 00:00:00 +0000</pubDate>

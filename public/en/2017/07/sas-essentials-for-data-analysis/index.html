@@ -6,16 +6,23 @@
 <meta name="generator" content="Hugo 0.19" />
 
 
-<title>Git for biginners - Enayetur Raheem | এনায়েতুর রহীম</title>
-<meta property="og:title" content="Git for biginners - Enayetur Raheem | এনায়েতুর রহীম">
+<title>SAS Essentials for Data Analysis - Enayetur Raheem | এনায়েতুর রহীম</title>
+<meta property="og:title" content="SAS Essentials for Data Analysis - Enayetur Raheem | এনায়েতুর রহীম">
 
 
 
+  
+  <meta property="description" content="A list of SAS with examples for day to day data wrangling.">
   
 
 
 
 
+
+
+
+
+<link href='//cdn.bootcss.com/highlight.js/9.9.0/styles/github.min.css' rel='stylesheet' type='text/css' />
 
 
 
@@ -67,20 +74,20 @@
     
     <span class="article-duration">1 min read</span>
     
-    <h1 class="article-title">Git for biginners
+    <h1 class="article-title">SAS Essentials for Data Analysis
 
 </h1>
 
 
 <div class="article-date">
-  <span> Enayetur Raheem ·   2017/07/03</span>
+  <span> Enayet Raheem ·   2017/07/07</span>
   <span class="article-toolbar">
     
     <a href="../../../../en/index.xml" type="application/rss+xml" target="_blank"><i class="fa fa-rss" aria-hidden="true" title="RSS feed"></i></a>
     
-    <a href="https://twitter.com/home?status=Git&#43;for&#43;biginners&#43;https%3A%2F%2Fwww.raheems.ca%2Fen%2F2017%2F07%2Fgit-for-biginners%2F&#43;via&#43;%40eraheem" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
+    <a href="https://twitter.com/home?status=SAS&#43;Essentials&#43;for&#43;Data&#43;Analysis&#43;https%3A%2F%2Fwww.raheems.ca%2Fen%2F2017%2F07%2Fsas-essentials-for-data-analysis%2F&#43;via&#43;%40eraheem" target="_blank"><i class="fa fa-twitter" aria-hidden="true" title="Share via Twitter"></i></a>
     
-    <a href="https://www.facebook.com/sharer/sharer.php?=Git&#43;for&#43;biginners&#43;%40raheemsOfficial&amp;u=https%3A%2F%2Fwww.raheems.ca%2Fen%2F2017%2F07%2Fgit-for-biginners%2F" target="_blank"><i class="fa fa-facebook" aria-hidden="true" title="Share via Facebook"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?=SAS&#43;Essentials&#43;for&#43;Data&#43;Analysis&#43;%40raheemsOfficial&amp;u=https%3A%2F%2Fwww.raheems.ca%2Fen%2F2017%2F07%2Fsas-essentials-for-data-analysis%2F" target="_blank"><i class="fa fa-facebook" aria-hidden="true" title="Share via Facebook"></i></a>
     
     
     </span>
@@ -90,34 +97,39 @@
 
     
     <div class="article-content">
-      
+      <!-- BLOGDOWN-HEAD -->
+<!-- /BLOGDOWN-HEAD -->
 
-<p>Working with git for the first time can be time consuming. If you can phrase the right question, you might be lucky to find the answer you were looking for. Often, the answers contain some jargons which you are not familiar with.</p>
+<!-- BLOGDOWN-BODY-BEFORE -->
+<!-- /BLOGDOWN-BODY-BEFORE -->
+<div id="string-manipulation" class="section level1">
+<h1>String Manipulation</h1>
+<div id="remove-characters-from-a-string" class="section level2">
+<h2>Remove characters from a string</h2>
+<p>Use the <code>COMPRESS</code> function to remove characters from the string.</p>
+<pre><code>data test;
+x = &quot;DC98699&quot;;
+y = &quot;C98374928345&quot;;
 
-<p>Here I am listing some common tasks with git that beginners might find useful. There are plenty of resources available online. I will list some of them which I found useful.</p>
+* Removing the alphabates from the x column;
+x1 = compress(x, , &quot;a&quot;);
 
-<h1 id="git-for-windows">Git for Windows</h1>
-
-<p>I use git in Windows. Google it and then download and install in your PC. Mac users probably have git already installed. If not, please ues the process appropriate for Mac. Good would help you.</p>
-
-<h1 id="bring-a-remote-repository-to-your-local-computer">Bring a remote repository to your local computer</h1>
-
-<p>This is called cloning. You need to clone a remote repository to your local PC (or Mac). For this you need to</p>
+# removing the alphabatest from y column;
+y1 = compress(y, , &#39;a&#39;);
+run;</code></pre>
+</div>
+</div>
 
     </div>
     
 
 <nav id="article-nav">
     
-    <a href="../../../../en/2015/07/testing-r-markdown/" id="article-nav-older" class="article-nav-link-wrap">
-      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Testing R Markdown</div>
+    <a href="../../../../en/2017/07/git-for-biginners/" id="article-nav-older" class="article-nav-link-wrap">
+      <div class="article-nav-title"><i class="fa fa-arrow-circle-left" aria-hidden="true"></i> Git for biginners</div>
     </a>
     
 
-    
-    <a href="../../../../en/2017/07/sas-essentials-for-data-analysis/" id="article-nav-newer" class="article-nav-link-wrap">
-      <div class="article-nav-title">SAS Essentials for Data Analysis <i class="fa fa-arrow-circle-right" aria-hidden="true"></i></div>
-    </a>
     
 </nav>
 <script type="text/javascript">
@@ -126,11 +138,9 @@ document.addEventListener('keyup', function(e) {
   var url = false;
   if (e.which == 37) {  
     
-    url = '\/en\/2015\/07\/testing-r-markdown\/';
+    url = '\/en\/2017\/07\/git-for-biginners\/';
     
   } else if (e.which == 39) {  
-    
-    url = '\/en\/2017\/07\/sas-essentials-for-data-analysis\/';
     
   }
   if (url) window.location = url;
@@ -196,6 +206,19 @@ document.addEventListener('keyup', function(e) {
     
 
     
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/highlight.min.js"></script>
+
+
+
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/languages/r.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/languages/yaml.min.js"></script>
+<script src="//cdn.bootcss.com/highlight.js/9.9.0/languages/tex.min.js"></script>
+<script>hljs.configure({languages: []}); hljs.initHighlightingOnLoad();</script>
+
+
 
     
 

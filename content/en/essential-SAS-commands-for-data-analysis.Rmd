@@ -1,0 +1,33 @@
+---
+draft: no
+disable_comment: false
+title: SAS Essentials for Data Analysis
+slug: sas essentials for data analysis
+author: Enayet Raheem
+date: '2017-07-07'
+tag: [SAS]
+category: []
+og_image: 
+description: A list of SAS with examples for day to day data wrangling.
+---
+
+# String Manipulation
+
+## Remove characters from a string
+
+Use the `COMPRESS` function to remove characters from the string.
+
+```
+data test;
+x = "DC98699";
+y = "C98374928345";
+
+* Removing the alphabates from the x column;
+x1 = compress(x, , "a");
+
+# removing the alphabatest from y column;
+y1 = compress(y, , 'a');
+run;
+```
+
+
