@@ -47,6 +47,8 @@ Autism spectrum disorder (ASD) is a neurodevelopmental disability which has surf
 
 * Hossain, M. S., **Raheem, E.**, Sultana, T. A., Ferdous, S., Nahar, N., Islam, S., ... & Khatun, H. (2017). Thalassemias in South Asia: clinical lessons learnt from Bangladesh. [*Orphanet Journal of Rare Diseases*](https://ojrd.biomedcentral.com/articles/10.1186/s13023-017-0643-z), 12(1), 93.
 
+* Islam, M, Khan JR, **Raheem, E.** (2017). Bradley-Terry model for assessing the performance of ten ODI cricket teams adjusting for home ground effect. [*Journal of Data Science*](http://www.jds-online.com/file_download/628/221-OK.pdf), 16, 657-668.
+
 2016
 
 * Dey, S., & **Raheem, E.** (2016). Multilevel multinomial logistic regression model for identifying factors associated with anemia in children 6–59 months in northeastern states of India. [*Cogent Mathematics*](http://www.tandfonline.com/doi/full/10.1080/23311835.2016.1159798), 3(1), 1159798.
